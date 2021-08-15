@@ -1,7 +1,5 @@
 const choose_length = document.getElementById('choose_length');
 const length_value = document.getElementById('length_value');
-// const oz_result = document.getElementById('oz_result');
-// const kg_result = document.getElementById('kg_result');
 const Change_Feet = document.getElementById('Change_Feet');
 const Change_Meters = document.getElementById('Change_Meters');
 const Change_Inches = document.getElementById('Change_Inches');
