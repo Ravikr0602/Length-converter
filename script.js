@@ -84,60 +84,60 @@ function updateValues() {
 function convert(length, given_value) {
   switch(length) {
     case 1: // Feet change.........
-      Change_Meters.innerHTML = given_value/3.2808;
-      Change_Inches.innerHTML = given_value*12;
-      Change_Centi_meters.innerHTML = given_value/0.032808;
-      Change_Kilo_Meters.innerHTML = given_value/3280.8;
-      Change_Yard.innerHTML = given_value*0.33333;
-      Change_Miles.innerHTML = given_value*0.00018939;
+      Change_Meters.innerHTML = (given_value/3.2808).toFixed(2);
+      Change_Inches.innerHTML = (given_value*12).toFixed(2);
+      Change_Centi_meters.innerHTML = (given_value/0.032808).toFixed(2);
+      Change_Kilo_Meters.innerHTML = (given_value/3280.8).toFixed(2);
+      Change_Yard.innerHTML = (given_value*0.33333).toFixed(2);
+      Change_Miles.innerHTML = (given_value*0.00018939).toFixed(2);
       break;
     case 2: // Meters change..........
-    Change_Feet.innerHTML = given_value*3.2808;
-    Change_Inches.innerHTML = given_value*39.370;
-    Change_Centi_meters.innerHTML = given_value/0.01;
-    Change_Kilo_Meters.innerHTML = given_value/1000;
-    Change_Yard.innerHTML = given_value*1.0936;
-    Change_Miles.innerHTML = given_value*0.00062137;
+    Change_Feet.innerHTML = (given_value*3.2808).toFixed(2);
+    Change_Inches.innerHTML = (given_value*39.370).toFixed(2);
+    Change_Centi_meters.innerHTML = (given_value/0.01).toFixed(2);
+    Change_Kilo_Meters.innerHTML = (given_value/1000).toFixed(2);
+    Change_Yard.innerHTML = (given_value*1.0936).toFixed(2);
+    Change_Miles.innerHTML = (given_value*0.00062137).toFixed(2);
       break;
     case 3: // Inches change.........
-    Change_Feet.innerHTML = given_value*0.083333;
-    Change_Meters.innerHTML = given_value/39.370;
-    Change_Centi_meters.innerHTML = given_value/0.39370;
-    Change_Kilo_Meters.innerHTML = given_value/39370;
-    Change_Yard.innerHTML = given_value*0.027778;
-    Change_Miles.innerHTML = given_value*0.000015783;
+    Change_Feet.innerHTML = (given_value*0.083333).toFixed(2);
+    Change_Meters.innerHTML = (given_value/39.370).toFixed(2);
+    Change_Centi_meters.innerHTML = (given_value/0.39370).toFixed(2);
+    Change_Kilo_Meters.innerHTML = (given_value/39370).toFixed(2);
+    Change_Yard.innerHTML = (given_value*0.027778).toFixed(2);
+    Change_Miles.innerHTML = (given_value*0.000015783).toFixed(2);
       break;
     case 4: // Centi_Meters change........
-    Change_Feet.innerHTML = given_value*0.032808;
-    Change_Inches.innerHTML = given_value*0.39370;
-    Change_Meters.innerHTML = given_value/100;
-    Change_Kilo_Meters.innerHTML = given_value/100000;
-    Change_Yard.innerHTML = given_value*0.010936;
-    Change_Miles.innerHTML = given_value*0.0000062137;
+    Change_Feet.innerHTML = (given_value*0.032808).toFixed(2);
+    Change_Inches.innerHTML = (given_value*0.39370).toFixed(2);
+    Change_Meters.innerHTML = (given_value/100).toFixed(2);
+    Change_Kilo_Meters.innerHTML = (given_value/100000).toFixed(2);
+    Change_Yard.innerHTML = (given_value*0.010936).toFixed(2);
+    Change_Miles.innerHTML = (given_value*0.0000062137).toFixed(2);
       break;
     case 5: // kilo_Meters change................
-    Change_Feet.innerHTML = given_value*3280.8;
-    Change_Inches.innerHTML = given_value*39370;
-    Change_Meters.innerHTML = given_value*1000;
-    Change_Centi_meters.innerHTML = given_value*100000;
-    Change_Yard.innerHTML = given_value*1093.6;
-    Change_Miles.innerHTML = given_value*0.62137;
+    Change_Feet.innerHTML = (given_value*3280.8).toFixed(2);
+    Change_Inches.innerHTML = (given_value*39370).toFixed(2);
+    Change_Meters.innerHTML = (given_value*1000).toFixed(2);
+    Change_Centi_meters.innerHTML = (given_value*100000).toFixed(2);
+    Change_Yard.innerHTML = (given_value*1093.6).toFixed(2);
+    Change_Miles.innerHTML = (given_value*0.62137).toFixed(2);
       break;
     case 6: // Yard change....................
-    Change_Feet.innerHTML = given_value*3;
-    Change_Inches.innerHTML = given_value*36;
-    Change_Meters.innerHTML = given_value/1.0936;
-    Change_Centi_meters.innerHTML = given_value/0.010936;
-    Change_Kilo_Meters.innerHTML = given_value/1093.6;
-    Change_Miles.innerHTML = given_value*0.00056818;
+    Change_Feet.innerHTML = (given_value*3).toFixed(2);
+    Change_Inches.innerHTML = (given_value*36).toFixed(2);
+    Change_Meters.innerHTML = (given_value/1.0936).toFixed(2);
+    Change_Centi_meters.innerHTML = (given_value/0.010936).toFixed(2);
+    Change_Kilo_Meters.innerHTML = (given_value/1093.6).toFixed(2);
+    Change_Miles.innerHTML = (given_value*0.00056818).toFixed(2);
       break;
     case 7: // Miles change.................
-    Change_Feet.innerHTML = given_value*5280;
-    Change_Inches.innerHTML = given_value*63360;
-    Change_Meters.innerHTML = given_value/0.00062137;
-    Change_Centi_meters.innerHTML = given_value/0.0000062137;
-    Change_Kilo_Meters.innerHTML = given_value/0.62137;
-    Change_Yard.innerHTML = given_value*1760;
+    Change_Feet.innerHTML = (given_value*5280).toFixed(2);
+    Change_Inches.innerHTML = (given_value*63360).toFixed(2);
+    Change_Meters.innerHTML = (given_value/0.00062137).toFixed(2);
+    Change_Centi_meters.innerHTML = (given_value/0.0000062137).toFixed(2);
+    Change_Kilo_Meters.innerHTML = (given_value/0.62137).toFixed(2);
+    Change_Yard.innerHTML = (given_value*1760).toFixed(2);
       break;
   }
 }
