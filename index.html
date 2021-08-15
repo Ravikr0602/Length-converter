@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="contanier">
+        <div class="box">
+            <h1 id="title">Length Convert </h1>  
+        
+            <section>
+                <div id="input">
+                  <select name="lengthSelect" id="choose_length">
+                    <option>Choose length type</option>
+                    <option value="1">Feet</option>
+                    <option value="2">Meters</option>
+                    <option value="3">Inches</option>
+                    <option value="4">Centi_Meters</option>
+                    <option value="5">Kilo_Meters</option>
+                    <option value="6">Yard</option>
+                    <option value="7">Miles</option>
+                  </select><br>
+                  <input type="number" id="length_value" value="0">
+                </div>
+                <div id="result">
+
+                  <div class="result_box feet" id="feet_result">
+                    <h3 id="types">Feet</h3>
+                    <h4 id="Change_Feet"></h4>
+                  </div>
+                  <div class="result_box meters" id="meters_result">
+                    <h3 id="types">Meters</h3>
+                    <h4 id="Change_Meters"></h4>
+                  </div>
+                  <div class="result_box inches" id="inches_result">
+                    <h3 id="types">Inches</h3>
+                    <h4 id="Change_Inches"></h4>
+                  </div>
+                  <div class="result_box centi_meters" id="centi_meters_result">
+                    <h3 id="types">Centi_meters</h3>
+                    <h4 id="Change_Centi_meters"></h4>
+                  </div>
+                  <div class="result_box kilo_meters" id="kilo_meters_result">
+                    <h3 id="types">Kilo_Meters</h3>
+                    <h4 id="Change_Kilo_Meters"></h4>
+                  </div>
+                  <div class="result_box yard" id="yard_result">
+                    <h3 id="types">Yard</h3>
+                    <h4 id="Change_Yard"></h4>
+                  </div>
+                  <div class="result_box miles" id="miles_result">
+                    <h3 id="types">Miles</h3>
+                    <h4 id="Change_Miles"></h4>
+                  </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
